@@ -43,6 +43,8 @@
 
     "features.largeEggRange.DragonEggBlockMixin",
 
+    "features.largeSkeletonRange.FollowTargetGoalMixin",
+
     "features.neverDropLeash.MobEntityMixin",
 
     "features.neverSwitchWitherPhase.WitherEntityMixin",
