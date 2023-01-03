@@ -31,6 +31,8 @@
     "features.everythingIsPotion.LingeringPotionItemMixin",
     "features.everythingIsPotion.PotionItemMixin",
 
+    "features.explosionDropChance.ExplosionMixin",
+
     "features.fishBigFleeRange.FishEntityMixin",
 
     "features.greedyDolphins.DolphinEntityMixin",
