@@ -23,7 +23,6 @@ import java.util.UUID;
 @Mixin(BeeEntity.class)
 public abstract class BeeEntityMixin extends AnimalEntity {
     @Shadow public abstract void setAngryAt(@Nullable UUID uuid);
-
     @Shadow public abstract void setAngerTime(int ticks);
 
     private int ticksSinceCheck = 0;

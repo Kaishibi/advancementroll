@@ -1,6 +1,5 @@
 package me.wurgo.advancementroll.mixin.features.noOffhandAbilities;
 
-import net.minecraft.client.render.WorldRenderer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayNetworkHandler;

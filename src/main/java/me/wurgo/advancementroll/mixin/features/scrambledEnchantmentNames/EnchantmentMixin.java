@@ -1,7 +1,6 @@
 package me.wurgo.advancementroll.mixin.features.scrambledEnchantmentNames;
 
 import me.wurgo.advancementroll.Advancementroll;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.resource.language.I18n;
 import net.minecraft.enchantment.Enchantment;
 import org.spongepowered.asm.mixin.Mixin;
