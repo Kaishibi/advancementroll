@@ -94,6 +94,8 @@
 
     "features.randomTntFuseTime.TntEntityMixin",
 
+    "features.randomWitchHutCat.CatEntityMixin",
+
     "features.scarederCats.TemptGoalMixin",
 
     "features.scaredWitherSkeletons.AbstractSkeletonEntityMixin",
