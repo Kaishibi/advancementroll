@@ -10,6 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Locale;
 import java.util.Random;
 
 @Mixin(Enchantment.class)
@@ -22,6 +23,6 @@ public abstract class EnchantmentMixin {
         Collections.shuffle(chars, new Random(Advancementroll.screenSeed));
         char[] shuffled = new char[chars.size()];
         for (int i = 0; i < shuffled.length; i++) { shuffled[i] = chars.get(i); }
-        cir.setReturnValue(new String(shuffled));
+        cir.setReturnValue(new String(shuffled).toLowerCase(Locale.ROOT));
     }
 }
