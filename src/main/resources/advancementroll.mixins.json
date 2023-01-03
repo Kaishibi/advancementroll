@@ -110,6 +110,8 @@
 
     "features.shrinkingDragonFireball.DragonFireballEntityMixin",
 
+    "features.singularPandaSpawns.SpawnEntryMixin",
+
     "features.totemResetInsomnia.LivingEntityMixin",
 
     "items.EnchantedGoldenAppleItemMixin"
