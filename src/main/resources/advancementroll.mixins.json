@@ -25,6 +25,9 @@
     "features.everythingIsBucket.BucketItemMixin",
     "features.everythingIsBucket.MilkBucketItemMixin",
 
+    "features.everythingIsDonkey.HorseEntityRendererMixin",
+    "features.everythingIsDonkey.HorseMarkingFeatureRendererMixin",
+
     "features.everythingIsPotion.LingeringPotionItemMixin",
     "features.everythingIsPotion.PotionItemMixin",
 
