@@ -1,4 +1,4 @@
-package me.wurgo.advancementroll.mixin.items;
+package me.wurgo.advancementroll.mixin.features.noGodAppleGlint;
 
 import net.minecraft.item.EnchantedGoldenAppleItem;
 import net.minecraft.item.ItemStack;

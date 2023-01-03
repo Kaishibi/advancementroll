@@ -69,6 +69,8 @@
 
     "features.noGatewayBedrock.EndGatewayFeatureMixin",
 
+    "features.noGodAppleGlint.EnchantedGoldenAppleItemMixin",
+
     "features.noInfestedBricks.StoneBrickRandomizerMixin",
 
     "features.noMountGhast.GhastEntityMixin",
@@ -116,9 +118,7 @@
 
     "features.singularPandaSpawns.SpawnEntryMixin",
 
-    "features.totemResetInsomnia.LivingEntityMixin",
-
-    "items.EnchantedGoldenAppleItemMixin"
+    "features.totemResetInsomnia.LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
