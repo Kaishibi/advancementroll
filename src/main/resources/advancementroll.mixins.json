@@ -74,6 +74,8 @@
 
     "features.noSlimeMoonSpawning.SlimeEntityMixin",
 
+    "features.noTallLibrary.LibraryMixin",
+
     "features.noTransformFeedback.HoglinEntityRendererMixin",
     "features.noTransformFeedback.PiglinEntityRendererMixin",
     "features.noTransformFeedback.ZombieVillagerEntityMixin",
