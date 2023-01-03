@@ -10,6 +10,8 @@
 
     "client.ReloadableResourceManagerImplMixin",
 
+    "features.aggressiveBees.BeeEntityMixin",
+
     "features.aggressiveIronGolems.IronGolemEntityMixin",
 
     "features.allPotionsClearEffects.ClientAdvancementManagerMixin",
