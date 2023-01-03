@@ -16,11 +16,6 @@ import java.util.List;
 
 @Mixin(PotionItem.class)
 public class PotionItemMixin {
-    @Inject(method = "hasGlint", at = @At("RETURN"), cancellable = true)
-    private void removeGlint(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
-        cir.setReturnValue(false);
-    }
-
     @Inject(method = "getTranslationKey", at = @At("RETURN"), cancellable = true)
     private void removeName(ItemStack stack, CallbackInfoReturnable<String> cir) {
         cir.setReturnValue("item.minecraft.potion");
