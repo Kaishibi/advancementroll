@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "advancementroll",
+  "version": "${version}",
+  "name": "Advancementroll",
+  "description": ":tf:",
+  "authors": ["Wurgo"],
+  "contact": {
+    "homepage": "https://github.com/wurgo"
+  },
+  "license": "MIT",
+  "icon": "assets/advancementroll/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.wurgo.advancementroll.Advancementroll"]
+  },
+  "mixins": ["advancementroll.mixins.json"],
+  "depends": {
+    "minecraft": "1.16.1"
+  }
+}

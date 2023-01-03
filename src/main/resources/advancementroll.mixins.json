@@ -1,0 +1,107 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.wurgo.advancementroll.mixin",
+  "compatibilityLevel": "JAVA_9",
+  "plugin": "me.wurgo.advancementroll.MixinPlugin",
+  "client": [
+    "blocks.BeehiveBlockMixin",
+    "blocks.RespawnAnchorBlockMixin",
+
+    "client.ReloadableResourceManagerImplMixin",
+
+    "features.aggressiveIronGolems.IronGolemEntityMixin",
+
+    "features.allPotionsClearEffects.ClientAdvancementManagerMixin",
+
+    "features.alwaysInvisibleSpiders.SpiderEntityMixin",
+
+    "features.biggerSleepDangerRange.ServerPlayerEntityMixin",
+
+    "features.crossEyedGhasts.ShootFireballGoalMixin",
+
+    "features.delayedPiglins.PiglinBrainMixin",
+
+    "features.everythingIsBucket.BucketItemMixin",
+    "features.everythingIsBucket.MilkBucketItemMixin",
+
+    "features.everythingIsPotion.LingeringPotionItemMixin",
+    "features.everythingIsPotion.PotionItemMixin",
+
+    "features.fishBigFleeRange.FishEntityMixin",
+
+    "features.greedyDolphins.DolphinEntityMixin",
+    "features.greedyDolphins.PlayWithItemsGoalMixin",
+
+    "features.hostileArbalistic.KilledByCrossbowCriterionMixin",
+
+    "features.insecureEndermen.EndermanEntityMixin",
+
+    "features.insomniaFoxes.FoxEntityMixin",
+
+    "features.intoFire.ItemEntityMixin",
+
+    "features.largeEggRange.DragonEggBlockMixin",
+
+    "features.neverDropLeash.MobEntityMixin",
+
+    "features.neverSwitchWitherPhase.WitherEntityMixin",
+
+    "features.noAdvancedTooltips.KeyboardMixin",
+    "features.noAdvancedTooltips.MinecraftClientMixin",
+
+    "features.noBoatMountShulker.ShulkerEntityMixin",
+
+    "features.noGatewayBeam.EndGatewayBlockEntityMixin",
+
+    "features.noGatewayBedrock.EndGatewayFeatureMixin",
+
+    "features.noInfestedBricks.StoneBrickRandomizerMixin",
+
+    "features.noMountGhast.GhastEntityMixin",
+
+    "features.noMountMinecart.MinecartEntityMixin",
+
+    "features.noMountPhantom.PhantomEntityMixin",
+
+    "features.noMountSkeleton.SkeletonEntityMixin",
+
+    "features.noOffhandAbilities.LivingEntityMixin",
+    "features.noOffhandAbilities.MinecraftClientMixin",
+    "features.noOffhandAbilities.ServerPlayNetworkHandlerMixin",
+
+    "features.noPortalRoomSpawner.PortalRoomMixin",
+
+    "features.noSlimeMoonSpawning.SlimeEntityMixin",
+
+    "features.noTransformFeedback.HoglinEntityRendererMixin",
+    "features.noTransformFeedback.PiglinEntityRendererMixin",
+    "features.noTransformFeedback.ZombieVillagerEntityMixin",
+    "features.noTransformFeedback.ZombieVillagerEntityRendererMixin",
+
+    "features.noWeatherGradients.ClientWorldMixin",
+    "features.noWeatherGradients.WorldAccess",
+    "features.noWeatherGradients.WorldRendererMixin",
+
+    "features.randomTntFuseTime.TntEntityMixin",
+
+    "features.scarederCats.TemptGoalMixin",
+
+    "features.scaredWitherSkeletons.AbstractSkeletonEntityMixin",
+    "features.scaredWitherSkeletons.WitherSkeletonEntityMixin",
+
+    "features.scrambledEnchantmentNames.EnchantmentMixin",
+    "features.scrambledEnchantmentNames.MinecraftClientMixin",
+
+    "features.shellDropChances.DrownedEntityMixin",
+
+    "features.shrinkingDragonFireball.DragonFireballEntityMixin",
+
+    "features.totemResetInsomnia.LivingEntityMixin",
+
+    "items.EnchantedGoldenAppleItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
