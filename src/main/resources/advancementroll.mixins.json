@@ -18,6 +18,8 @@
 
     "features.biggerSleepDangerRange.ServerPlayerEntityMixin",
 
+    "features.boxConduit.ConduitBlockEntityMixin",
+
     "features.crossEyedGhasts.ShootFireballGoalMixin",
 
     "features.delayedPiglins.PiglinBrainMixin",
