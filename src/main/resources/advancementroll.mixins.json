@@ -37,6 +37,8 @@
 
     "features.fishBigFleeRange.FishEntityMixin",
 
+    "features.golemEveryWave.RaidMixin",
+
     "features.greedyDolphins.DolphinEntityMixin",
     "features.greedyDolphins.PlayWithItemsGoalMixin",
 
