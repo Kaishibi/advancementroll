@@ -16,7 +16,6 @@ import java.util.function.Predicate;
 public class ServerPlayerEntityMixin {
     @Redirect(method = "trySleep", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/World;getEntities(Ljava/lang/Class;Lnet/minecraft/util/math/Box;Ljava/util/function/Predicate;)Ljava/util/List;"))
     private List<? extends Entity> increaseDangerRange(World instance, Class<? extends Entity> entityClass, Box box, @Nullable Predicate<? super Entity> predicate) {
-        box.expand(15);
-        return instance.getEntities(entityClass, box, predicate);
+        return instance.getEntities(entityClass, box.expand(15), predicate);
     }
 }
