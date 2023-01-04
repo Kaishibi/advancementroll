@@ -11,6 +11,7 @@ public class DragonFireballEntityMixin {
     @Redirect(method = "onCollision", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/AreaEffectCloudEntity;setDuration(I)V"))
     private void makeDurationShorter(AreaEffectCloudEntity instance, int duration) {
         instance.setDuration(10);
+        instance.setWaitTime(0);
     }
 
     @Redirect(method = "onCollision", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/AreaEffectCloudEntity;setRadiusGrowth(F)V"))
