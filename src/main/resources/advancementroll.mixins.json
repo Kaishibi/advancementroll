@@ -1,10 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.wurgo.advancementroll.mixin",
+  "package": "me.falu.advancementroll.mixin",
   "compatibilityLevel": "JAVA_9",
-  "plugin": "me.wurgo.advancementroll.MixinPlugin",
-  "client": [
+  "plugin": "me.falu.advancementroll.MixinPlugin",
+  "mixins": [
     "blocks.BeehiveBlockMixin",
     "blocks.RespawnAnchorBlockMixin",
 

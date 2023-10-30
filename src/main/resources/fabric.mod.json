@@ -4,15 +4,16 @@
   "version": "${version}",
   "name": "Advancementroll",
   "description": ":tf:",
-  "authors": ["Wurgo"],
+  "authors": ["falu"],
   "contact": {
-    "homepage": "https://github.com/wurgo"
+    "homepage": "https://github.com/faluhub"
   },
   "license": "MIT",
-  "icon": "assets/advancementroll/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "client": ["me.wurgo.advancementroll.Advancementroll"]
+    "main": [
+      "me.falu.advancementroll.Advancementroll"
+    ]
   },
   "mixins": ["advancementroll.mixins.json"],
   "depends": {
